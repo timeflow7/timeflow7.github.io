@@ -4,18 +4,24 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="favicon.ico" href="./img/cat1.ico">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/layui.css"/>
 		<link rel="stylesheet" href="./css/index.css">
-		<title>入口 | 番茄猫</title>
+		<title>入口 | timeFlow</title>
 	</head>
 	<body>
 		<div class="box">
-			 <button id="fButton" type="button" class="btn btn-default btn-lg">START NOW !</button>
+			<button id="fBtn" type="button" class="layui-btn">
+				<i class="layui-icon layui-icon-loading layui-anim layui-anim-rotate layui-anim-loop" style="display: inline-block"></i>
+				START NOW !
+			</button>
 		</div>
 		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			$(document).ready(() => {
-				$('#fButton').click(() => {
+				$('#fBtn').click(() => {
+					if(! confirm('WELCOME !')){
+						return alert('See U Next Time ...')
+					}
 					window.location = 'pages/home.html'
 				})
 			})
