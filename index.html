@@ -4,15 +4,21 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="favicon.ico" href="./img/cat1.ico">
-		<link rel="stylesheet" href="./css/normalize.css">
-		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="./css/index.css">
-		<title>hi~</title>
+		<title>入口 | 番茄猫</title>
 	</head>
 	<body>
-	<div class="container">
-		
-	</div>
-	<script src="js/bootstrap.min.js"></script>
+		<div class="box">
+			 <button id="fButton" type="button" class="btn btn-default btn-lg">START NOW !</button>
+		</div>
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(() => {
+				$('#fButton').click(() => {
+					window.location = 'pages/home.html'
+				})
+			})
+		</script>
 	</body>
 </html>
