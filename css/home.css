@@ -1,0 +1,25 @@
+body{
+	background: url(../img/4.jpg)  ;
+}
+.box {
+	width: 400px;	
+	height: 400px;
+/* 	margin: 0 auto; */
+}
+.box ul li{
+	text-align: center;	
+	margin-top: 80px;
+}
+.box ul li a{
+	display: block;
+	height: 40px;
+	padding: 0 10px;
+	margin-right: 20px;
+	/*垂直居中*/
+	line-height: 40px;
+	font-size: 18px;
+	color: #050505;
+	/*取消下划线*/
+	text-decoration: none;
+	border-radius: 30px;
+}
