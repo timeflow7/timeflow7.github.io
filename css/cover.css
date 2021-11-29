@@ -4,7 +4,7 @@
  * Globals
  */
 body {
-	background: url(../img/4.jpg);
+	background: url(../img/4.jpg) center center; 
 }
 /* Links */
 a,
@@ -127,8 +127,8 @@ body {
  */
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255, 255, 255, .5);
+  color: #fff; /* IE8 proofing */
+  /* color: rgba(255, 255, 255, .5); */
 }
 
 
